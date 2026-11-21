@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Rajesh Rai — Tech Enthusiast</title>
+    <meta
+      name="description"
+      content="Portfolio of Rajesh Rai — IT Support Specialist working across Microsoft 365, Azure, Intune and networking."
+    />
+    <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml" />
+
+    <!-- Fonts: heavy condensed headline, italic serif accent, clean body -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Styles: tokens/reset -> layout -> components -->
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/components.css" />
+  </head>
+
+  <body>
+    <a class="skip-link" href="#app">Skip to content</a>
+
+    <!-- Static site header (nav links are highlighted by js/main.js) -->
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <a class="brand" href="#/" aria-label="Rajesh Rai — home">
+          <span class="brand__dot" aria-hidden="true"></span>
+          <span class="brand__name">RAJESH RAI</span>
+        </a>
+        <nav class="nav" aria-label="Main">
+          <a class="nav__link" href="#/" data-route="home">Home</a>
+          <a class="nav__link" href="#/projects" data-route="projects">Projects</a>
+          <a class="nav__link" href="#/blog" data-route="blog">Blog</a>
+          <a class="nav__link nav__link--cta" href="#contact" data-scroll="contact">Get in touch ↗</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Pages are rendered into this container by the router -->
+    <main id="app" tabindex="-1"></main>
+
+    <!-- Static footer / contact (filled in by js/components/footer.js) -->
+    <footer id="contact" class="site-footer"></footer>
+
+    <noscript>This portfolio needs JavaScript enabled to display its content.</noscript>
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>

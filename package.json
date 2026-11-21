@@ -1,0 +1,13 @@
+{
+  "name": "rajesh-rai-portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio, projects and blog for Rajesh Rai — vanilla JavaScript, no build step.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "posts": "node scripts/build-index.js",
+    "new:post": "node scripts/new-post.js"
+  },
+  "engines": { "node": ">=18" }
+}

@@ -1,0 +1,24 @@
+{
+  "posts": [
+    {
+      "slug": "welcome-to-my-corner-of-the-internet",
+      "title": "Welcome to my corner of the internet",
+      "date": "2026-11-21",
+      "summary": "Why I'm starting this blog and what I plan to write about.",
+      "tags": [
+        "personal",
+        "learning"
+      ]
+    },
+    {
+      "slug": "a-simple-checklist-for-network-connectivity-issues",
+      "title": "A simple checklist for network connectivity issues",
+      "date": "2026-11-14",
+      "summary": "The order I check things in when a user says \"the internet isn't working\".",
+      "tags": [
+        "networking",
+        "troubleshooting"
+      ]
+    }
+  ]
+}
